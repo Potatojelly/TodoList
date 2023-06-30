@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Todo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple task management tool built with React. With this application, you can add tasks, delete them, and mark them as complete.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+1. [Screen Shots](#screenshot)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Technology Stack](#tech-stack)
+5. [Reflection](#reflection)
 
-### `yarn start`
+## Screenshots <a name="screenshot"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot 2023-06-29 193652](https://github.com/Potatojelly/TodoList/assets/108857524/2b5597c5-e107-4df2-b365-a1935751f84f)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Website:https://tourmaline-malasada-7ed562.netlify.app/
 
-### `yarn test`
+## Installation <a name="installation"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get the application running locally on your machine, you would need to have Node.js and npm installed. Here are the steps to follow:
 
-### `yarn build`
+1. Clone the repository:
+2. Navigate to the directory of the cloned repository.
+3. Install the dependencies by running npm install.
+4. Once all dependencies are installed, start the local server by running npm start.
+5. Open a web browser and navigate to http://localhost:3000 to start using the Todo List
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage <a name="usage"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Adding a Task: Click the "Add Task" button to add your tasks
+* Viewing Tasks: All tasks will be displayed on the screen. Tasks are categorized as "Active" or "Completed."
+* Marking a Task as Completed: Click on the checkbox next to the task you wish to mark as complete.
+* Deleting a Task: Click the "Trash Can" button next to the task you wish to remove.
+* Dark and Light Mode: Click the Moon or Sun logo to change the theme of the Todo List.
+* Local Storage: Your tasks are saved into your browser's local storage. It will reload your tasks when you refresh or revisit the website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technology stack <a name="tech-stack"></a>
+The TODO List App is built using the following technologies:
 
-### `yarn eject`
+* Frontend: ReactJS, PostCSS
+* State Management: React Hooks (useState, useEffect)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Reflection <a name="reflection"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Context for the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I wanted to better understand the principles of React and state management and build a tool to manage daily tasks effectively. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Objective
 
-## Learn More
+The focus was on getting a deeper understanding of how React components work, how state is managed in React using Hooks, and how user interactions can be effectively handled.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Challenges and Learning Experiences
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Identifying the logic to toggle Dark and Light Mode without adding complicated codes was the primary challenge. 
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project helped to deepen my basic knowledge and skills in Reacts 
