@@ -4,7 +4,7 @@ This is a simple task management tool built with React. With this application, y
 
 ## Table of Contents
 
-1. [Screen Shots](#screenshot)
+1. [Screen Shots/Demo](#screenshot)
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Technology Stack](#tech-stack)
@@ -14,7 +14,7 @@ This is a simple task management tool built with React. With this application, y
 
 ![Screenshot 2023-06-29 193652](https://github.com/Potatojelly/TodoList/assets/108857524/2b5597c5-e107-4df2-b365-a1935751f84f)
 
-Website:https://tourmaline-malasada-7ed562.netlify.app/
+Demo:https://tourmaline-malasada-7ed562.netlify.app/
 
 ## Installation <a name="installation"></a>
 
